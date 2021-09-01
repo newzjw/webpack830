@@ -74,7 +74,7 @@ module.exports  = {
           },
         ],
       },
-      //使用html-loader处理html中的标签资源
+      //使用html-loader处理html中的标签资源，比如img，video等
       {
         test: /\.(html)$/,
         use: {
